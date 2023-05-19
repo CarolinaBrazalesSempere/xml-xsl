@@ -22,14 +22,15 @@
                     </nav>
                 </header>
             </div>
-            <main class="">
-                <article class="prof-section">
-                    <h1 class="main_header"><xsl:value-of select="/ite/@nombre" /></h1>
+            <main class="container">
+            <h1 class="main_header"><xsl:value-of select="/ite/@nombre" /></h1>
+
+                <article class="prof-section" id="profesores">
                     <caption>
                         <h2>Profesores</h2>
                     </caption>
 
-                    <table id="profesores" class="table">
+                    <table  class="table">
                         <tbody>
                             <tr>
                                 <th>Identificador</th>
