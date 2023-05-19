@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: unset;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 120px;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bg {
+    background-color: rgb(166, 123, 252);
+    position: sticky;
+    top: 0;
+}
+
+.navbar, footer {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar li {
+    padding: 8px; 
+    color: white;
+}
+
+.main_header, h2, table {
+    text-align: center;
+}
+
+.prof-section, #ciclos, h2 {
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+table {
+   margin: 0 auto;
+   border: 1px solid gray;
+}
+
+
+tr, td, th {
+    padding: 10px;
+  }
+
+  #direccion {
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+
+
+  #direccion, .info_tp, .info_bt {
+    display: flex;
+    gap: 16px;
+  }
+
+  footer {
+    height: 32vh;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+
+ footer > div > p, h3 {
+    color: white;
+    margin-top: 16px;
+    
+ }
+
+ .logo-footer{
+    margin-top: 16px;
+ }
+
+  .footer {
+    background-color: black;
+  }
+
+ label {
+    color: white;
+ }
+
+ .btn {
+    width: 100%;
+    color:black;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 16px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+    background-color: rgb(166, 123, 252);
+}
+
+form {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select  {
+    padding: 8px;
+    border: 0.5px solid;
+}
+
+input:focus, select:focus {
+    outline: 1px solid rgb(160, 158, 158);
+}
